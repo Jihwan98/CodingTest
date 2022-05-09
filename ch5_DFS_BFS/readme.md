@@ -79,4 +79,5 @@
 - ***깊이 우선 탐색이라고도 부르며, 그래프에서 깊은 부분을 우선적으로 탐색하는 알고리즘***
 #### 그래프 (Graph)의 기본 구조
 - *노드(Node)* 와 *간선(Edge)* 으로 표현되며, 이때 노드를 *정점(Vertex)* 이라고도 말한다.
-- ![image](https://user-images.githubusercontent.com/76936390/167345842-6349cf45-03a9-4800-8653-7082b945aeca.png)
+  ![image](https://user-images.githubusercontent.com/76936390/167345842-6349cf45-03a9-4800-8653-7082b945aeca.png)
+- 
