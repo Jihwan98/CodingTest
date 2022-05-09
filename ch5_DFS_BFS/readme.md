@@ -48,4 +48,20 @@
 - DFS가 대표적인 예
 - 재귀 함수의 대표적인 예제로는 ***팩토리얼(Factorial) 문제***가 있음.
 - `n! = 1 x 2 x ··· x (n-1) x n`, `0!` 과 `1!`은 `1`로 같다는 성질을 이용하여 팩토리얼 함수는 `n`이 `1`이하가 되었을 때 종료하는 재귀함수 형태로 구현 가능
-- 
+  ```python
+  # 반복적으로 구현한 n!
+  def factorial_iterative(n):
+    result = 1
+    # 1부터 n까지의 수를 차례대로 곱하기
+    for i in range(1, n+1):
+      result *= i
+    return result
+    
+  # 재귀적으로 구현한 n!
+  def factorial_recursive(n):
+    if n <= 1:
+      return 1
+    # n! = n * (n-1)!
+    return n * factorial_recursive(n-1)
+  ```
+  
