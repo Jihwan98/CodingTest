@@ -3,5 +3,6 @@
 ## [코딩테스트 개요](overview)
 ## [팀 노트](team_note)
 - [2차원 리스트 90도 회전](team_note/rotate_a_matrix_by_90_degree.py)
-## [Ch3 그리디(Greedy)](greedy)
-## [Ch4 구현(Implementation)](implementation)
+## [Ch3 그리디(Greedy)](ch3_greedy)
+## [Ch4 구현(Implementation)](ch4_implementation)
+## [Ch5 DFS/BFS](ch5_DFS_BFS)
